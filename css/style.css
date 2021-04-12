@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 158px;
+  height: 87.42px;
+  margin-top: 16px;
+  background-image: url("../image/Logo\ V1.svg");
+  background-size: 100% auto;
+  background-position: center;
+}
