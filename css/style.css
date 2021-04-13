@@ -58,6 +58,7 @@ section .hero-description .hero-contato {
   font-weight: 700;
   line-height: 28px;
   color: #FF6584;
+  cursor: pointer;
 }
 
 section .hero-image {
@@ -84,10 +85,16 @@ section .social-media-item {
  width: 100%;
 }
 
-section .social-media .media-insta{
+section .social-media .media-insta {
   margin-right: 32px;
+  cursor: pointer;
 }
 
-section .social-media .media-twitt{
+section .social-media .media-twitt {
   margin-right: 32px;
+  cursor: pointer;
+}
+
+section .social-media .media-faceb {
+  cursor: pointer;
 }
