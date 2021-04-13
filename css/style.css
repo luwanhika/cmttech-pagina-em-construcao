@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
-
+.debug {
+  border: 1px solid red;
+}
 html, body {
   height: 100%;
 }
@@ -21,4 +24,70 @@ html, body {
   background-image: url("../image/Logo\ V1.svg");
   background-size: 100% auto;
   background-position: center;
+}
+
+section .hero {
+  display: flex;
+  margin-top: 104px;
+}
+
+section .hero-description h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #261E90;
+}
+
+section .hero-description h1 {
+  margin-top: 8px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #261E90;
+}
+
+section .hero-description .hero-text {
+  max-width: 418px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+section .hero-description .hero-contato {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #FF6584;
+}
+
+section .hero-image {
+  width: 641.79px;
+  height: 484.47px;
+  margin-left: 62px;
+  background-image: url("../image/undraw_building_websites_i78t\ 1.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: inherit;
+}
+
+section .social-media h2 {
+  margin-top: 74px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+section .social-media-item {
+  display: flex;
+ max-width: 160px;
+ width: 100%;
+}
+
+section .social-media .media-insta{
+  margin-right: 32px;
+}
+
+section .social-media .media-twitt{
+  margin-right: 32px;
 }
