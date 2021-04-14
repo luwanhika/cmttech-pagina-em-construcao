@@ -71,30 +71,30 @@ section .hero-image {
   background-repeat: inherit;
 }
 
-section .social-media h2 {
-  margin-top: 74px;
-  margin-bottom: 24px;
+footer .social-media h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
   font-size: 18px;
   font-weight: 400;
   color: black;
 }
 
-section .social-media-item {
+footer .social-media-item {
   display: flex;
  max-width: 160px;
  width: 100%;
 }
 
-section .social-media .media-insta {
+footer .social-media .media-insta {
   margin-right: 32px;
   cursor: pointer;
 }
 
-section .social-media .media-twitt {
+footer .social-media .media-twitt {
   margin-right: 32px;
   cursor: pointer;
 }
 
-section .social-media .media-faceb {
+footer .social-media .media-faceb {
   cursor: pointer;
 }
