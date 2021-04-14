@@ -129,7 +129,7 @@ footer .social-media .media-faceb {
   }
 }
 
-@media (max-width: 400px) {
+@media (min-width: 374px) and (max-width: 400px) {
   .hero {
     flex-wrap: wrap;
   }
@@ -140,9 +140,9 @@ footer .social-media .media-faceb {
   }
 
   .hero-image {
-    width: 541.79px;
-    height: 384.47px;
-    margin-top: 16px;
+    width: 441.79px;
+    height: 284.47px;
+    margin-top: 24px;
     margin-right: 10px;
   }
 
