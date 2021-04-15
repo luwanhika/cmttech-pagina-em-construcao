@@ -129,7 +129,7 @@ footer .social-media .media-faceb {
   }
 }
 
-@media (min-width: 374px) and (max-width: 400px) {
+@media (max-width: 400px) {
   .hero {
     flex-wrap: wrap;
   }
@@ -139,9 +139,24 @@ footer .social-media .media-faceb {
     text-align: justify;
   }
 
+  section .hero-description h2 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #261E90;
+  }
+  
+  section .hero-description h1 {
+    margin-top: 8px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #261E90;
+  }
+
   .hero-image {
-    width: 441.79px;
-    height: 284.47px;
+    display: block;
+    max-width: 100%;
+    /* width: 280.79px;
+    height: 444.47px; */
     margin-top: 24px;
     margin-right: 10px;
   }
